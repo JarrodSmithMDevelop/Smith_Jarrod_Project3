@@ -43,9 +43,10 @@ var closeGalleryButton = Ti.UI.createView({
 	backgroundColor: ("#f2f2f2"),
 	height: 50,
 	width: 300,
-	top: 5,
+	top: 0,
 	bottom: 20,
-	left: 40
+	left: 40,
+	borderRadius: 5,
 });
 
 var closeButtonLabel = Ti.UI.createLabel({

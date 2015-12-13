@@ -1,5 +1,5 @@
 //looking at images folder 
-var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "images");
+var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "Images");
 //Pulling images from folder
 var imageFiles = imagesFolder.getDirectoryListing();
 
@@ -53,7 +53,8 @@ var expand = function(imSource){
 		backgroundColor: ("#e0e0eb"),
 		height: 40,
 		bottom: 10,
-		width: phWidth
+		width: phWidth,
+		borderRadius:5,
 	});
 	var backButtonText = Ti.UI.createLabel({
 		text: "Back",

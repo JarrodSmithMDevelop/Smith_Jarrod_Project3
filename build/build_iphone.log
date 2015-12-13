@@ -1,5 +1,5 @@
 
-12/12/2015, 8:36:23 PM
+12/12/2015, 8:59:16 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.1.GA --project-dir /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3 --target simulator --ios-version 9.2 --device-family iphone --sim-type iphone --sim-version 9.2 --device-id FD0C1C3A-7A27-4743-A36F-A509E10740B7 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60635 --plugin-paths /Users/JarrodSmith/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1449974179838.json --no-banner
+  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.1.GA --project-dir /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3 --target simulator --ios-version 9.2 --device-family iphone --sim-type iphone --sim-version 9.2 --device-id FD0C1C3A-7A27-4743-A36F-A509E10740B7 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60635 --plugin-paths /Users/JarrodSmith/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1449975553161.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID FD0C1C3A-7A27-4743-A36F-A509E10740B7
 [TRACE]  [ioslib] Found iOS Simulator UDID FD0C1C3A-7A27-4743-A36F-A509E10740B7
@@ -62,7 +62,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-cb510816e758b87c20eef915054c84f0e62ec941.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 86271.577 sec ago
+[TRACE]  optimizing build, last build was 140.612 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -114,31 +114,31 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/'69_Plymouth_Road_Runner_(Auto_classique_Showtime_Muscle_Cars_'12).JPG => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/'69_Plymouth_Road_Runner_(Auto_classique_Showtime_Muscle_Cars_'12).JPG
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/1423584594_05f26fd308_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/1423584594_05f26fd308_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/19712511040_82fa534f0f_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/19712511040_82fa534f0f_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/3266010882_b8de152bda_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/3266010882_b8de152bda_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/340363217_8e7cd89ab8_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/340363217_8e7cd89ab8_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/346355259_dd68a92e16_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/346355259_dd68a92e16_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/346356996_d2439c4c67_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/346356996_d2439c4c67_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/4608944333_cdde6507f8.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/4608944333_cdde6507f8.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/4661313559_da3f5308f0.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/4661313559_da3f5308f0.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/5735794402_6da0d80eba_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5735794402_6da0d80eba_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/5773883145_736d903b96_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5773883145_736d903b96_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/5885895083_5bd15a8e2b_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5885895083_5bd15a8e2b_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/5951722585_049670b90a_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5951722585_049670b90a_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/6063262222_7193690052_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/6063262222_7193690052_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/6328459494_6b089dce87_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/6328459494_6b089dce87_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/7026671875_567f8206db_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7026671875_567f8206db_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/7144326711_4c20d3329c_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7144326711_4c20d3329c_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/7326638250_bf65a0e31d_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7326638250_bf65a0e31d_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/7559892410_0bec4d6a52_o.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7559892410_0bec4d6a52_o.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/Valiant_VH_Charger.JPG => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/Valiant_VH_Charger.JPG
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/camaro.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/camaro.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/cars-212239_960_720.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/cars-212239_960_720.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/cars-212240_960_720.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/cars-212240_960_720.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/muscle car.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/muscle car.jpg
-[DEBUG]  Copying /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/Resources/Images/one_crazy_camaro_by_relativelyextreme-d5uera3.jpg => /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/one_crazy_camaro_by_relativelyextreme-d5uera3.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/'69_Plymouth_Road_Runner_(Auto_classique_Showtime_Muscle_Cars_'12).JPG
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/1423584594_05f26fd308_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/19712511040_82fa534f0f_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/3266010882_b8de152bda_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/340363217_8e7cd89ab8_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/346355259_dd68a92e16_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/346356996_d2439c4c67_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/4608944333_cdde6507f8.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/4661313559_da3f5308f0.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5735794402_6da0d80eba_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5773883145_736d903b96_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5885895083_5bd15a8e2b_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/5951722585_049670b90a_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/6063262222_7193690052_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/6328459494_6b089dce87_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7026671875_567f8206db_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7144326711_4c20d3329c_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7326638250_bf65a0e31d_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/7559892410_0bec4d6a52_o.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/Valiant_VH_Charger.JPG
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/camaro.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/cars-212239_960_720.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/cars-212240_960_720.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/muscle car.jpg
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/Images/one_crazy_camaro_by_relativelyextreme-d5uera3.jpg
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/KS_nav_ui.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/KS_nav_views.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
@@ -163,15 +163,16 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/build/Products/Debug-iphonesimulator/Smith_Jarrod_Project3.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/JarrodSmith/GitHub/Smith_Jarrod_Visualframeworks/Smith_Jarrod_Project3/build/iphone/Logs/Build/114EFEF2-4718-4EAE-8747-8D588A3E8371.xcactivitylog
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 848ms
+[INFO]   Finished building the application in 1s 540ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
 [TRACE]  [ioslib]   UDID    = FD0C1C3A-7A27-4743-A36F-A509E10740B7
 [TRACE]  [ioslib]   iOS     = 9.2
 [TRACE]  [ioslib] Autoselected Xcode: 7.2
-[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/FD0C1C3A-7A27-4743-A36F-A509E10740B7/data/Containers/Data/Application/6596F950-EFC0-4065-AC85-4D85F66D4B39/Documents/b4c0e6ab-2c03-4d79-9666-a04e09e03c21.log
+[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/FD0C1C3A-7A27-4743-A36F-A509E10740B7/data/Containers/Data/Application/D0A2DE28-F59C-442C-93C9-F4B9B32DACCB/Documents/b4c0e6ab-2c03-4d79-9666-a04e09e03c21.log
 [TRACE]  [ioslib] iPhone 6 Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/JarrodSmith/Library/Logs/CoreSimulator/FD0C1C3A-7A27-4743-A36F-A509E10740B7/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.1.1.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
@@ -180,5 +181,5 @@ Command
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch FD0C1C3A-7A27-4743-A36F-A509E10740B7 com.week3
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/FD0C1C3A-7A27-4743-A36F-A509E10740B7/data/Containers/Data/Application/A4A09C0C-09DC-4354-95B5-F8205AB0B603/Documents/b4c0e6ab-2c03-4d79-9666-a04e09e03c21.log
 [TRACE]  [Smith_Jarrod_Project3] assertion failed: 15B42 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/FD0C1C3A-7A27-4743-A36F-A509E10740B7/data/Containers/Data/Application/FAEFC735-2F21-4DD0-B2EF-223F49B9072E/Documents/b4c0e6ab-2c03-4d79-9666-a04e09e03c21.log
