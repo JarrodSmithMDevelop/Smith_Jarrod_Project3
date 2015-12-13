@@ -1,5 +1,5 @@
 //looking at images folder 
-var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "pictures");
+var imagesFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory, "images");
 //Pulling images from folder
 var imageFiles = imagesFolder.getDirectoryListing();
 
@@ -70,5 +70,6 @@ var expand = function(imSource){
 };
 viewContainer.addEventListener("click", function(thumbevent){
 	expand(thumbevent.source.image);
+	console.log(thumbevent);
 });
 mainWindow.add(viewContainer, closeGalleryButton);
